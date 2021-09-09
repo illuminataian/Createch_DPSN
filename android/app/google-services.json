@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "378457233676",
+    "project_id": "createchdpsn",
+    "storage_bucket": "createchdpsn.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:378457233676:android:d620bffe60f8232ba1d129",
+        "android_client_info": {
+          "package_name": "com.dpsn.createch_dpsn"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "378457233676-fo058si6sf7v2fpba232s5kiqlgtrntf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBiFKAglpBWgZUpm8Cye3A2qdl62Hkbrlw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "378457233676-fo058si6sf7v2fpba232s5kiqlgtrntf.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
