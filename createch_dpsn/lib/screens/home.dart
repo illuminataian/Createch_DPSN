@@ -9,7 +9,7 @@ class HomePage extends StatefulWidget {
 }
 
 class _HomePageState extends State<HomePage> {
-  int strength = 87;
+  int strength = 153;
   @override
   Widget build(BuildContext context) {
     Color GetColor() {
@@ -127,43 +127,40 @@ class _HomePageState extends State<HomePage> {
                 ),
                 Padding(
                   padding: const EdgeInsets.all(10.0),
-                  child: Flexible(
-                    child: Column(
-                        crossAxisAlignment: CrossAxisAlignment.start,
-                        children: [
-                          SizedBox(
-                            height: 30,
-                          ),
-                          Center(
-                            child: SizedBox(
-                              width: 220,
-                              height: 220,
-                              child: Material(
-                                borderRadius: BorderRadius.circular(180),
-                                color: GetColor(),
-                                elevation: 30,
-                                child: Container(
-                                  decoration: BoxDecoration(
-                                      color: GetColor(),
-                                      borderRadius: BorderRadius.circular(180)),
-                                  padding: EdgeInsets.all(24),
-                                  child: Material(
-                                    borderRadius: BorderRadius.circular(180),
-                                    elevation: 15,
-                                    child: Container(
-                                      decoration: BoxDecoration(
-                                        borderRadius:
-                                            BorderRadius.circular(180),
-                                        color: Color(0xFFE0E0E0),
-                                      ),
-                                      child: Center(
-                                        child: Text(
-                                          strength.toString(),
-                                          style: TextStyle(
-                                              color: Color(0xFF313E57),
-                                              fontSize: 72,
-                                              fontWeight: FontWeight.bold),
-                                        ),
+                  child: Column(
+                      crossAxisAlignment: CrossAxisAlignment.start,
+                      children: [
+                        SizedBox(
+                          height: 30,
+                        ),
+                        Center(
+                          child: SizedBox(
+                            width: 220,
+                            height: 220,
+                            child: Material(
+                              borderRadius: BorderRadius.circular(180),
+                              color: GetColor(),
+                              elevation: 30,
+                              child: Container(
+                                decoration: BoxDecoration(
+                                    color: GetColor(),
+                                    borderRadius: BorderRadius.circular(180)),
+                                padding: EdgeInsets.all(24),
+                                child: Material(
+                                  borderRadius: BorderRadius.circular(180),
+                                  elevation: 15,
+                                  child: Container(
+                                    decoration: BoxDecoration(
+                                      borderRadius: BorderRadius.circular(180),
+                                      color: Color(0xFFE0E0E0),
+                                    ),
+                                    child: Center(
+                                      child: Text(
+                                        strength.toString(),
+                                        style: TextStyle(
+                                            color: Color(0xFF313E57),
+                                            fontSize: 72,
+                                            fontWeight: FontWeight.bold),
                                       ),
                                     ),
                                   ),
@@ -171,42 +168,41 @@ class _HomePageState extends State<HomePage> {
                               ),
                             ),
                           ),
-                          SizedBox(
-                            height: 50,
-                          ),
-                          Card(
-                            margin:
-                                const EdgeInsets.fromLTRB(5.0, 5.0, 16.0, 0),
-                            child: Padding(
-                              padding: const EdgeInsets.all(12.0),
-                              child: Row(
-                                children: [
-                                  Container(
-                                    padding: EdgeInsets.all(3),
-                                    decoration: BoxDecoration(
-                                        borderRadius: BorderRadius.circular(5),
-                                        color: GetColor()),
-                                    child: Center(
-                                      child: Icon(
-                                        Icons.air_rounded,
-                                        color: Colors.grey[100],
-                                        size: 30,
-                                      ),
+                        ),
+                        SizedBox(
+                          height: 50,
+                        ),
+                        Card(
+                          margin: const EdgeInsets.fromLTRB(5.0, 5.0, 16.0, 0),
+                          child: Padding(
+                            padding: const EdgeInsets.all(12.0),
+                            child: Row(
+                              children: [
+                                Container(
+                                  padding: EdgeInsets.all(3),
+                                  decoration: BoxDecoration(
+                                      borderRadius: BorderRadius.circular(5),
+                                      color: GetColor()),
+                                  child: Center(
+                                    child: Icon(
+                                      Icons.air_rounded,
+                                      color: Colors.grey[100],
+                                      size: 30,
                                     ),
                                   ),
-                                  SizedBox(width: 15),
-                                  Text(
-                                    GetText(),
-                                    style: TextStyle(
-                                        fontWeight: FontWeight.bold,
-                                        fontSize: 16),
-                                  )
-                                ],
-                              ),
+                                ),
+                                SizedBox(width: 15),
+                                Text(
+                                  GetText(),
+                                  style: TextStyle(
+                                      fontWeight: FontWeight.bold,
+                                      fontSize: 16),
+                                )
+                              ],
                             ),
                           ),
-                        ]),
-                  ),
+                        ),
+                      ]),
                 ),
               ],
             ),
