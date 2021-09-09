@@ -3,14 +3,11 @@ import 'package:createch_dpsn/screens/home.dart';
 
 class RouteGenerator {
   static Route<dynamic> generateRoute(RouteSettings settings) {
-    // Getting arguments passed in while calling Navigator.pushNamed
-    final args = settings.arguments;
-
     switch (settings.name) {
       case '/':
         return MaterialPageRoute(builder: (_) => HomePage());
       default:
-        // If there is no such named route in the switch statement, e.g. /third
+        // If there is no such named route in the switch statement, e.g. /loltherenoroute_haha
         return _errorRoute();
     }
   }
