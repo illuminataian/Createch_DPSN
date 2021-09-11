@@ -1,16 +1,13 @@
 import 'package:flutter/material.dart';
-import 'package:createch_dpsn/screens/home.dart';
-import 'package:createch_dpsn/screens/Map.dart';
-import 'package:createch_dpsn/screens/select.dart';
-import "package:createch_dpsn/main.dart";
+
+import '../main.dart';
+import '../screens/select.dart';
 
 class RouteGenerator {
   static Route<dynamic> generateRoute(RouteSettings settings) {
     switch (settings.name) {
       case '/':
         return MaterialPageRoute(builder: (_) => MainApp());
-      case '/map':
-        return MaterialPageRoute(builder: (_) => Map());
       case '/map':
         return MaterialPageRoute(builder: (_) => SelectPage());
       default:

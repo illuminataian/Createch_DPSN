@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
+import 'screens/home.dart';
+import 'screens/select.dart';
 import 'services/routegenerator.dart';
-import 'package:createch_dpsn/screens/home.dart';
-import 'package:createch_dpsn/screens/select.dart';
 
 void main() {
   WidgetsFlutterBinding.ensureInitialized();

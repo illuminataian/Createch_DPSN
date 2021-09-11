@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:createch_dpsn/services/Pollution.dart';
 import 'dart:convert';
 
 class HomePage extends StatefulWidget {
@@ -10,7 +9,7 @@ class HomePage extends StatefulWidget {
 }
 
 class _HomePageState extends State<HomePage> {
-  int strength = 153;
+  int strength = 96;
   @override
   Widget build(BuildContext context) {
     Color GetColor() {

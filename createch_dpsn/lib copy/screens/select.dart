@@ -10,10 +10,15 @@ class SelectPage extends StatefulWidget {
 
 class _SelectPageState extends State<SelectPage> {
   List<Info> info = [
-    Info(text: "Delhi", strength: 124),
-    Info(text: 'Berlin', strength: 38),
-    Info(text: "Moscow", strength: 76),
-    Info(text: "Ankara", strength: 26),
+    Info(text: "Delhi", strength: 96, country: "India"),
+    Info(text: 'Tokyo', strength: 70, country: "Japan"),
+    Info(text: "Washingtion DC", strength: 54, country: "USA"),
+    Info(text: "London", strength: 50, country: "UK"),
+    Info(text: "Moscow", strength: 57, country: "Russia"),
+    Info(text: "Oslo", strength: 75, country: "Norway"),
+    Info(text: "Bern", strength: 55, country: "Switzerland"),
+    Info(text: "Beijing", strength: 107, country: "China"),
+    Info(text: "Ankara", strength: 50, country: "Turkey"),
   ];
 
   @override
@@ -35,7 +40,7 @@ class _SelectPageState extends State<SelectPage> {
                   title: Text(info[index].text),
                   onTap: () => Navigator.pushReplacementNamed(
                     context,
-                    "/home",
+                    "/",
                     arguments: {
                       'poll': info[index].strength,
                     },
