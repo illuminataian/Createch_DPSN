@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'screens/home.dart';
+import 'screens/read.dart';
 import 'screens/select.dart';
 import 'services/routegenerator.dart';
 
@@ -32,6 +33,7 @@ class _MainAppState extends State<MainApp> {
   final screens = [
     SelectPage(),
     HomePage(),
+    ReadSection(),
   ];
 
   @override
@@ -43,7 +45,12 @@ class _MainAppState extends State<MainApp> {
           items: [
             BottomNavigationBarItem(icon: Icon(Icons.location_on), label: ""),
             BottomNavigationBarItem(
-                icon: Icon(Icons.circle_outlined), label: "")
+                icon: Icon(Icons.circle_outlined), label: ""),
+            BottomNavigationBarItem(
+                icon: Icon(
+                  Icons.book,
+                ),
+                label: ""),
           ],
           onTap: (index) => setState(() => _currentIndex = index)),
     );
