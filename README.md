@@ -25,16 +25,16 @@ The app is just a buddy of the theme. How ? So here it is. This app provides you
 Ah ! That is a nice question mate ! So this app is only for Android Devices (Sorry iOS users we dont have Macs). So in the releases section of this GitHub Repository you can download the .apk file. 
 
 For Android Devices -> https://www.javatpoint.com/how-to-install-apk-on-android
-For emulators -> Just drag and drop the .apk file on the Emulator. Google made the Emulator smart enough to download itself. 
+<br> For emulators -> Just drag and drop the .apk file on the Emulator. Google made the Emulator smart enough to download itself. 
 
 
 # Credits
 
-How can we forget our lovely team who made this amazing app
-So here are the 3 techies from DPSN who made this cool project 
- -> Tijil Agrawal (App designer)
- -> Shaurya Agarwal (App Designer)
- -> Shaurya Mehta (Website Designer)
+<br> How can we forget our lovely team who made this amazing app
+<br> So here are the 3 techies from DPSN who made this cool project 
+ <br> -> Tijil Agrawal (App designer)
+ <br> -> Shaurya Agarwal (App Designer)
+ <br> -> Shaurya Mehta (Website Designer)
  
  
  Oh sorry we forgot to give you the website link. 
