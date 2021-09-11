@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:createch_dpsn/screens/home.dart';
 import 'package:createch_dpsn/screens/Map.dart';
+import 'package:createch_dpsn/screens/select.dart';
 import "package:createch_dpsn/main.dart";
 
 class RouteGenerator {
@@ -10,6 +11,8 @@ class RouteGenerator {
         return MaterialPageRoute(builder: (_) => MainApp());
       case '/map':
         return MaterialPageRoute(builder: (_) => Map());
+      case '/map':
+        return MaterialPageRoute(builder: (_) => SelectPage());
       default:
         // If there is no such named route in the switch statement, e.g. /loltherenoroute_haha
         return _errorRoute();

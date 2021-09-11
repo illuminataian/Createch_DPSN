@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:createch_dpsn/services/routegenerator.dart';
+import 'services/routegenerator.dart';
 import 'package:createch_dpsn/screens/home.dart';
 import 'package:createch_dpsn/screens/select.dart';
 
@@ -20,7 +20,7 @@ class MyApp extends StatelessWidget {
 }
 
 class MainApp extends StatefulWidget {
-  const MainApp({Key? key}) : super(key: key);
+  const MainApp({Key key}) : super(key: key);
 
   @override
   _MainAppState createState() => _MainAppState();
