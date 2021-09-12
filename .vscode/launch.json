@@ -9,7 +9,7 @@
             "cwd": "createch_dpsn",
             "request": "launch",
             "type": "dart",
-            "program": "lib copy/main.dart"
+            "program": "lib/main.dart"
         },
         {
             "name": "createch_dpsn (profile mode)",

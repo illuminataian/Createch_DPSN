@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'dart:convert';
+import '../models/globals.dart' as globals;
 
 class HomePage extends StatefulWidget {
   const HomePage({Key key}) : super(key: key);
@@ -9,7 +9,7 @@ class HomePage extends StatefulWidget {
 }
 
 class _HomePageState extends State<HomePage> {
-  int strength = 96;
+  int strength = globals.pollution;
   @override
   Widget build(BuildContext context) {
     Color GetColor() {
@@ -94,7 +94,7 @@ class _HomePageState extends State<HomePage> {
                                 width: 13,
                               ),
                               Text(
-                                "Delhi",
+                                globals.name_city,
                                 style: TextStyle(
                                     color: Color(0xFFCCCCCC),
                                     fontSize: 24,
@@ -105,7 +105,7 @@ class _HomePageState extends State<HomePage> {
                                       color: Color(0xFFCCCCCC),
                                       fontSize: 24,
                                       fontWeight: FontWeight.bold)),
-                              Text("India",
+                              Text(globals.name_country,
                                   style: TextStyle(
                                       color: Color(0xFFCCCCCC),
                                       fontSize: 24,

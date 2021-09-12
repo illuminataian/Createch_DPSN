@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import '../models/Info.dart';
+import '../models/globals.dart' as globals;
 
 class SelectPage extends StatefulWidget {
   const SelectPage({Key key}) : super(key: key);
@@ -12,7 +13,7 @@ class _SelectPageState extends State<SelectPage> {
   List<Info> info = [
     Info(text: "Delhi", strength: 96, country: "India"),
     Info(text: 'Tokyo', strength: 70, country: "Japan"),
-    Info(text: "Washingtion DC", strength: 54, country: "USA"),
+    Info(text: "WDC", strength: 54, country: "USA"),
     Info(text: "London", strength: 50, country: "UK"),
     Info(text: "Moscow", strength: 57, country: "Russia"),
     Info(text: "Oslo", strength: 75, country: "Norway"),
@@ -37,15 +38,18 @@ class _SelectPageState extends State<SelectPage> {
                   const EdgeInsets.symmetric(vertical: 1.0, horizontal: 4.0),
               child: Card(
                 child: ListTile(
-                  title: Text(info[index].text),
-                  onTap: () => Navigator.pushReplacementNamed(
-                    context,
-                    "/",
-                    arguments: {
-                      'poll': info[index].strength,
-                    },
-                  ),
-                ),
+                    title: Text(info[index].text),
+                    onTap: () {
+                      Navigator.pushReplacementNamed(
+                        context,
+                        "/",
+                      );
+                      setState(() {
+                        globals.name_city = info[index].text;
+                        globals.pollution = info[index].strength;
+                        globals.name_country = info[index].country;
+                      });
+                    }),
               ),
             );
           }),
