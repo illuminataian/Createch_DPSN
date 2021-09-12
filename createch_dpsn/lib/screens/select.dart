@@ -17,7 +17,7 @@ class _SelectPageState extends State<SelectPage> {
     Info(text: "London", strength: 50, country: "UK"),
     Info(text: "Moscow", strength: 57, country: "Russia"),
     Info(text: "Oslo", strength: 75, country: "Norway"),
-    Info(text: "Bern", strength: 55, country: "Switzerland"),
+    Info(text: "Nairobi", strength: 55, country: "Kenya"),
     Info(text: "Beijing", strength: 107, country: "China"),
     Info(text: "Ankara", strength: 50, country: "Turkey"),
   ];

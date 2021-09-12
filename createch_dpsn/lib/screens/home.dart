@@ -117,7 +117,7 @@ class _HomePageState extends State<HomePage> {
                     ),
                     Positioned(
                       bottom: 35,
-                      right: 2,
+                      right: 1,
                       child: Icon(
                         Icons.drag_indicator,
                         color: Colors.grey[400],
