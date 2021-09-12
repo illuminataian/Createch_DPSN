@@ -13,7 +13,7 @@ The countries are :-
  - Russia
  - Turkey
  - Finland
- - Switzerland
+ - Kenya
  - Japan
  - China
 
