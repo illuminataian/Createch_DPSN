@@ -31,7 +31,7 @@ class _SelectPageState extends State<SelectPage> {
         foregroundColor: Colors.grey[100],
       ),
       body: Container(
-        decoration: BoxDecoration(color: Colors.grey[700]),
+        decoration: BoxDecoration(color: Color(0xFF292A2C)),
         child: ListView.builder(
             itemCount: info.length,
             itemBuilder: (context, index) {
@@ -40,7 +40,7 @@ class _SelectPageState extends State<SelectPage> {
                     const EdgeInsets.symmetric(vertical: 1.0, horizontal: 4.0),
                 child: Card(
                   elevation: 10,
-                  color: Colors.grey.shade800,
+                  color: Colors.grey.shade600,
                   child: ListTile(
                       title: Text(
                         info[index].text,
