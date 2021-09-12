@@ -29,3 +29,12 @@ class RouteGenerator {
     });
   }
 }
+
+Route _createRoute() {
+  return PageRouteBuilder(
+    pageBuilder: (context, animation, secondaryAnimation) => const MainApp(),
+    transitionsBuilder: (context, animation, secondaryAnimation, child) {
+      return child;
+    },
+  );
+}
