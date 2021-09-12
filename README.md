@@ -22,7 +22,8 @@ The app is just a buddy of the theme. How ? So here it is. This app provides you
 
 ## How to download ? 
 
-Ah ! That is a nice question mate ! So this app is only for Android Devices (Sorry iOS users we dont have Macs). So in the releases section of this GitHub Repository you can download the .apk file. 
+Ah ! That is a nice question mate ! So this app is only for Android Devices (Sorry iOS users we dont have Macs). S
+APK at https://drive.google.com/file/d/1yTJV4toBQ_EaWeaNZbAF4ZIQOgLokJvl/view
 
 For Android Devices -> https://www.javatpoint.com/how-to-install-apk-on-android
 <br> For emulators -> Just drag and drop the .apk file on the Emulator. Google made the Emulator smart enough to download itself. 
